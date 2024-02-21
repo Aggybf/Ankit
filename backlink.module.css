@@ -1,0 +1,33 @@
+.backlink{
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: 2px dotted gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.backlink a{
+    text-decoration: none;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+    width: auto;
+    height: auto;
+    padding: 5px 20px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.backlink a:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .backlink{
+        flex-direction: column;
+    }
+}
